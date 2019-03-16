@@ -4,3 +4,6 @@ http.createServer(function(req,res){
     res.end('hello world')
 }).listen("3000")
 console.log('服务器运营在3000端口');
+
+// 调试  npm install -g supervisor
+// supervisor server.js
